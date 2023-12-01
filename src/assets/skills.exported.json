@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "skill": "Core Java",
+        "years": 5,
+        "level": "Advanced",
+        "createdAt": "2023-12-05T00:18:26.528Z",
+        "updatedAt": "2023-12-05T00:18:30.980Z",
+        "publishedAt": "2023-12-05T00:18:30.978Z"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "skill": "JavaScript",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2023-12-05T00:18:57.592Z",
+        "updatedAt": "2023-12-05T00:18:58.526Z",
+        "publishedAt": "2023-12-05T00:18:58.525Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 2
+    }
+  }
+}

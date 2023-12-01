@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Home",
+  "sections" : [
+    {
+      "title": "Welcome",
+      "content": "Hello and welcome to my site."
+    },
+    {
+      "title": "Welcome",
+      "content": "Hello and welcome to my site2."
+    }
+  ]
+}
