@@ -24,6 +24,11 @@ export type RichTextItem =
   | RichTextParagraph
 ;
 
+export interface RichTextParagraph {
+  type: 'paragraph';
+  children: RichTextListItemChild[];
+}
+
 export interface RichTextList {
   type: 'list';
   format: string;
@@ -40,8 +45,5 @@ export interface RichTextListItemChild {
   text: string;
 }
 
-export interface RichTextParagraph {
-  type: 'paragraph';
-  text: string;
-}
+
 

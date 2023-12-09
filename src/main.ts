@@ -18,12 +18,9 @@ const routes: Routes = [
 ];
 
 bootstrapApplication(AppComponent, {
-  providers: [ importProvidersFrom(BrowserModule),
+  providers: [importProvidersFrom(BrowserModule),
     provideAnimations(),
     provideHttpClient(),
-    provideRouter(routes),
-
-
-  ]
+    provideRouter(routes), provideAnimations()]
 })
   .catch(err => console.error(err));

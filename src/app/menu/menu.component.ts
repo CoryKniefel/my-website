@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
@@ -11,5 +11,6 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './menu.component.scss'
 })
 export class AppMenu {
+
 
 }

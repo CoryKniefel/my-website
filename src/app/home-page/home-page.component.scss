@@ -1,18 +1,18 @@
 .content-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
+  padding-top: 20px;
 
-  .top-section {
+  .welcoming {
     display: flex;
+
     .mug-wrapper {
 
-      width: 200px; /* Set the desired width of the circular container */
-      height: 200px; /* Set the desired height of the circular container */
+      width: 200px;
+      height: 200px;
       overflow: hidden;
       border-radius: 50%; /* Make the container a circle using border-radius */
-
-      /* Optional: Add border and box-shadow for additional styling */
       border: 2px solid #fff;
 
       img {
@@ -28,30 +28,27 @@
       margin-left: 45px;
     }
 
-
-
-  }
-
-
-  .value-proposition {
-    //margin-top: 10px;
   }
 
   @media screen and (max-width: 599px) {
+    gap: 20px;
 
-    .top-section {
+    .welcoming {
       flex-direction: column;
       align-items: center;
+      gap: 10px;
 
       .hello {
         margin: 0;
       }
+
+    }
+    .actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
-
-
-
-
 
 }
 

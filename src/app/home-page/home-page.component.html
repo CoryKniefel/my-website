@@ -1,41 +1,34 @@
-@if (content) {
+<div class="content-wrapper">
 
-  <div class="content-wrapper">
-
-    <section class="top-section">
-      <div class="mug-wrapper">
-        <img src="assets/corys-mug.jpeg">
-      </div>
-        <h1 class="hello">Hi, I'm Cory.</h1>
-
-    </section>
-
-
-
-    <div class="value-proposition">
-      {{ content.data.attributes.valueStatement }}
-
+  <div class="welcoming">
+    <div class="mug-wrapper">
+      <img src="assets/corys-mug.jpeg">
     </div>
-
-
-    <app-at-a-glance>
-
-    </app-at-a-glance>
-
-
-    <div class="things-to-do">
-      <h3>Things you can do</h3>
-
-      <ul>
-        <li>Visit my <a href="/resume">resume page</a></li>
-        <li>Visit my <a href="/projects">projects page</a></li>
-        <li><a href="/contact">Contact me</a></li>
-
-      </ul>
-
-    </div>
-
+    <h1 class="hello">Hi, I'm Cory.</h1>
   </div>
 
+  <div class="value-proposition">
+    @if (content) {
+      {{ content.data.attributes.valueStatement }}
+    }
+  </div>
 
-}
+  <app-at-a-glance>
+
+  </app-at-a-glance>
+
+  <div class="actions">
+    <h1>While You Are Here</h1>
+
+    <ul>
+      <li>Visit my <a href="/resume">resume page</a></li>
+      <li>Visit my <a href="/projects">projects page</a></li>
+      <li><a href="/contact">Contact me</a></li>
+
+    </ul>
+  </div>
+
+</div>
+
+
+

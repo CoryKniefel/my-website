@@ -1,0 +1,231 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "title": "Full-Stack Engineer",
+        "items": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "API development in Java and NodeJS"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Database skills with SQL and NoSQL"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Front-end apps with Angular "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-07T01:37:28.655Z",
+        "updatedAt": "2023-12-07T01:37:29.905Z",
+        "publishedAt": "2023-12-07T01:37:29.903Z"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Focus on Quality",
+        "items": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As former QA Automation Engineer, quality stays top of mind. I reach my quality goals by using: "
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Test Driven Development"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Unit Testing"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Integration Testing"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "E2E Testing "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-07T17:26:49.353Z",
+        "updatedAt": "2023-12-08T17:23:42.960Z",
+        "publishedAt": "2023-12-07T17:26:50.184Z"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Agile Minded",
+        "items": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I enjoy working in the Scrum framework, but flexible enough to follow any process that creates value for customers. "
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-07T20:07:45.903Z",
+        "updatedAt": "2023-12-08T17:37:23.355Z",
+        "publishedAt": "2023-12-07T20:07:47.499Z"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "title": "Creative",
+        "items": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I am a creative problem solver at heart. I pull from my multi-discipline work experiences and come up with solutions that others might not see. "
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-07T20:15:15.745Z",
+        "updatedAt": "2023-12-08T17:24:03.398Z",
+        "publishedAt": "2023-12-07T20:20:47.613Z"
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Multi-Disciplined",
+        "items": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Leveraging my past experiences, I enjoy contributing to the project in a variety of ways: "
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Engineering"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Quality Assurance"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Product"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-07T20:26:35.101Z",
+        "updatedAt": "2023-12-08T17:18:26.965Z",
+        "publishedAt": "2023-12-07T20:29:02.464Z"
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "title": "Growth Mindset",
+        "items": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As a lifelong learner, I embrace growth mindset practices like sharing information, seeking feedback, and collaborating with others so we can all grow together. "
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-07T20:34:35.868Z",
+        "updatedAt": "2023-12-08T17:06:19.027Z",
+        "publishedAt": "2023-12-07T20:34:36.457Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 6
+    }
+  }
+}

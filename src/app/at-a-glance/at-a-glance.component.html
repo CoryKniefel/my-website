@@ -1,50 +1,35 @@
-<h1>At a glance</h1>
+<h1>At a Glance</h1>
+@if (content && content.data) {
+  <div class="card-container">
 
-<div class="card-container">
+    @for (richTextItem of content.data;track richTextItem.id) {
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>{{ richTextItem.attributes.title }}</mat-card-title>
+        </mat-card-header>
 
+        <mat-card-content>
 
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>Full-Stack Development</mat-card-title>
-  </mat-card-header>
+          @for (item of richTextItem.attributes.items;track item) {
+            @switch (item.type) {
+              @case ('list') {
 
-  <mat-card-content>
-    I can build backend and front-end
+                <ul>
+                  @for (listItem of item.children;track listItem) {
+                    <li>{{ listItem.children[0].text }}</li>
 
-  </mat-card-content>
-</mat-card>
-<mat-card>
+                  }
+                </ul>
 
-  <mat-card-header>
-    <mat-card-title>Full-Stack Development</mat-card-title>
-  </mat-card-header>
+              }
+              @case ('paragraph') {
+                <p>{{ item.children[0].text }}</p>
+              }
+            }
+          }
+        </mat-card-content>
+      </mat-card>
+    }
+  </div>
 
-  <mat-card-content>
-    I can build backend and front-end
-
-  </mat-card-content>
-</mat-card>
-
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>Full-Stack Development</mat-card-title>
-  </mat-card-header>
-
-  <mat-card-content>
-    I can build backend and front-end
-
-  </mat-card-content>
-</mat-card>
-
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>Full-Stack Development</mat-card-title>
-  </mat-card-header>
-
-  <mat-card-content>
-    I can build backend and front-end
-
-  </mat-card-content>
-</mat-card>
-</div>
-
+}

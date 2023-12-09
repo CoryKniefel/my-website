@@ -12,7 +12,6 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
@@ -31,7 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "@angular/material/prebuilt-themes/indigo-pink.css"
             ],
             "scripts": []
           },
