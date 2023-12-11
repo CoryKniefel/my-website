@@ -1,0 +1,441 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "location": "Portland, OR",
+        "contractPosition": false,
+        "startDate": "2022-03-22",
+        "endDate": "2023-08-29",
+        "accomplishments": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Worked on product platform where a portfolio of risk management applications are built"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Built API service that allows users to request any webpage as a PDF using NodeJS, Typescript, Express, Puppeteer, Docker and Splunk for monitoring"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rebuilt dashboard application that displays third party risk metrics, moved from AngularJS to Angular 14, TypeScript, Highcharts, CSS3, HTML5, W3C, and API Integrations"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resolved accessibility defects to ensure compliance with WCAG AA standards and improving the site's compatibility with screen readers using CSS3, and HTML5"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Added feature that allows users to customize column headers in custom third party risk reports, enabling localization and fine grained control, using Java 11, Oracle DB, and GWT"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Contributed to the planning and rollout of formal code quality review process using GitLab"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Served as Scrum Master for small development team including organizing and hosting the Scrum ceremonies of daily standup, planning, bug scrub, and retrospective using Jira and Confluence"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hosted engineering knowledge sharing brown bag events so developers could connect with each other and share tools, techniques, and ideas"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Collaborated with Product Management to refine the product backlog, including refining requirements, providing estimates, and technical feasibility deep dives"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Created templates for user stories which were adopted and drove consistency across development teams"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Drove the adoption of the Conventional Commits specification so the commit history was more explicit and meaningful which enabled automated tools to more easily consume this information using Git and Confluence"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Created and documented local development environment on Windows 11 using Windows Sub-System Linux (WSL2)"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "which gained the benefits of a stable OS for business tools on Windows (e.g. video conference) and Bash scripts in Linux which were used for development using Docker, Linux, and WSL"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-09T22:25:48.367Z",
+        "updatedAt": "2023-12-09T22:50:43.711Z",
+        "publishedAt": "2023-12-09T22:33:12.340Z",
+        "jobTitle": "Full-Stack Software Engineer",
+        "companyName": "Aravo"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "location": "Portland, OR",
+        "contractPosition": true,
+        "startDate": "2019-09-19",
+        "endDate": "2022-03-19",
+        "accomplishments": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Worked on the backend systems supporting vehicle electronics programming during the manufacturing process of commercial vehicles"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Built API service that enables users to obtain Digital Certificates for their authorization level for critical cyber security project using Java 11, RESTEasy, BouncyCastle for certificate signing, and MongoDB"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Implemented application monitoring with Splunk including dashboards, email alerts, and more informative logging that improved the ability to understand and respond to production issues"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rebuilt critical legacy Java 6 application, created full test suite and complete documentation, reducing the time it takes to add new features and support the application using Java 11, JMS/IBM MQ, Java concurrency, and multiple API integrations"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Maintained data ingestion application which transforms XML file data to JSON objects, and pushes to multiple sources, including operational databases and Azure ADX using Java 11, JMS/IBM MQ, Windows Server 2012"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Worked independently to define priorities, plan work, test and deploy applications into production at 6 manufacturing plants in North America"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Migrated legacy application into a Java 11 library and made available for use as Gradle/Maven dependency using JFrog Artifactory and Jenkins for CI/CD"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-11T21:38:13.972Z",
+        "updatedAt": "2023-12-11T21:52:58.938Z",
+        "publishedAt": "2023-12-11T21:48:17.158Z",
+        "jobTitle": "Software Engineer",
+        "companyName": "Daimler Truck"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "location": "Portland, OR",
+        "contractPosition": true,
+        "startDate": "2018-10-22",
+        "endDate": "2019-09-04",
+        "accomplishments": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Testing automation for modern web applications using Selenium WebDriver on various devices and browsers to ensure pages implemented responsive layout and matched expected design"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Built test framework that compared JSON responses between versions of a Spring Boot app that migrated its database source from MongoDB to a RDBM"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Verified ETL process that transformed MongoDB collections to normalized relational data by directly querying both sources and comparing results"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Prioritize and handled multiple tasks and projects concurrently, provided technical leadership to in the QA automation space to newer and internship engineers"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Created automated load testing scripts for IAM system used for customer login to verify system would support peak usage requirements for current and near future needs using JMeter and BlazeMeter"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-11T21:41:29.708Z",
+        "updatedAt": "2023-12-11T21:52:07.025Z",
+        "publishedAt": "2023-12-11T21:48:17.158Z",
+        "jobTitle": "QA Automation Engineer",
+        "companyName": "NWEA"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "location": "Portland, OR",
+        "contractPosition": false,
+        "startDate": "2016-01-04",
+        "endDate": "2018-10-19",
+        "accomplishments": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Contributed to development of testing automation tools using Java 8, Selenium Grid, and Appium to verify the layout and functionality of web and mobile applications in an agency setting practicing agile methodologies"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Created automated tests that traversed the content authoring UI of a customized AEM instance, verifying the content types functioned as expected to create a hight quality authoring experience"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Maintained CI/CD for AEM instance during development phase of client project, including deployment to AWS supporting a high velocity development team"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-11T21:44:29.504Z",
+        "updatedAt": "2023-12-11T21:52:29.708Z",
+        "publishedAt": "2023-12-11T21:48:17.158Z",
+        "jobTitle": "QA Automation Engineer",
+        "companyName": "AKQA"
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "location": "Beaverton, OR",
+        "contractPosition": true,
+        "startDate": "2014-10-01",
+        "endDate": "2015-10-23",
+        "accomplishments": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Specified product requirements for enterprise event planning system using Jira and Confluence"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Contributed to the testing of the API created for external integrations with event planning system using JMeter to verify functionality"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-11T21:45:52.221Z",
+        "updatedAt": "2023-12-11T21:45:52.221Z",
+        "publishedAt": "2023-12-11T21:48:17.158Z",
+        "jobTitle": "Business Systems Analyst",
+        "companyName": "Nike"
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "location": "Portland, OR",
+        "contractPosition": false,
+        "startDate": "2013-02-01",
+        "endDate": "2014-10-01",
+        "accomplishments": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Collected requirements, created user stories, tested new features, and trained users for enterprise project management SaaS product"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Helped users understand how to get the most value from the product via support calls, emails, and training sessions"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Managed mid-sized product implementation projects for key clients in healthcare space including virtual and onsite training sessions"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "createdAt": "2023-12-11T21:47:22.726Z",
+        "updatedAt": "2023-12-11T21:51:30.915Z",
+        "publishedAt": "2023-12-11T21:48:17.158Z",
+        "jobTitle": "Business Systems Analyst",
+        "companyName": "Performance Logic"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "total": 6
+    }
+  }
+}

@@ -1,1 +1,89 @@
-<p>resume works!</p>
+<div class="wrapper">
+
+  <div class="header">
+    <h1>Cory Kniefel</h1>
+    <mat-divider></mat-divider>
+    <p><a href="mailto:ckniefel@gmail.com?subject=Hello&body=Hi%20Cory%2C%20I%20found%20your%20website%20online...">ckniefel&#64;gmail.com</a>
+    </p>
+    <p>Hood River, OR</p>
+
+  </div>
+
+  <div class="skills">
+    <h1>Skills</h1>
+    @if (!skills) {
+      <div class="loader"></div>
+    } @else {
+
+      <mat-chip-set role="list">
+
+        @for (skill of skills.data;track skill) {
+
+          <mat-chip role="listitem"
+                    matTooltip="Years used: {{skill.attributes.years}}, Level: {{skill.attributes.level}}">{{ skill.attributes.skill }}
+          </mat-chip>
+        }
+      </mat-chip-set>
+    }
+
+
+  </div>
+
+  <div class="work-experience">
+    <h1>Experience</h1>
+    @if (!experiences) {
+      <div class="loader"></div>
+    } @else {
+      @for (exp of experiences.data;track exp) {
+        <div class="experience-item">
+          <div class="top-line">
+            <span>{{ exp.attributes.jobTitle }}</span>
+            <span>{{ exp.attributes.companyName }} in {{ exp.attributes.location }}</span>
+            <span>{{ formatDate(exp.attributes.startDate) }} - {{ formatDate(exp.attributes.endDate) }}</span>
+          </div>
+
+
+          <ul>
+            @for (richText of exp.attributes.accomplishments;track richText) {
+              @for (item of richText.children;track item) {
+                <li>{{ item.children[0].text }}</li>
+              }
+            }
+          </ul>
+        </div>
+      }
+    }
+
+
+  </div>
+
+  <div class="achievements">
+    <h1>Education & Achievements</h1>
+    @if (!achievements) {
+      <div class="loader"></div>
+    } @else {
+      <ul>
+        @for (achievement of achievements.data;track achievement) {
+          <li>
+            <div class="achievement-row">
+              <span class="item item-1">{{ achievement.attributes.organization }}</span>
+              <span class="item item-2">{{ achievement.attributes.year }}</span>
+              <span class="item item-3">{{ achievement.attributes.title }}</span>
+            </div>
+
+          </li>
+
+
+        }
+
+
+      </ul>
+
+
+    }
+  </div>
+
+
+</div>
+
+

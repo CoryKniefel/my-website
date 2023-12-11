@@ -1,0 +1,92 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    mat-divider {
+      width: 100%;
+    }
+
+    h1, p {
+      margin: 0;
+    }
+  }
+
+  .work-experience {
+
+    .experience-item {
+      margin-bottom: 30px;
+
+      .top-line {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5em;
+
+      }
+
+
+    }
+
+    @media screen and (max-width: 599px) {
+
+      .experience-item {
+
+        .top-line {
+          flex-direction: column;
+          justify-content: center;
+          row-gap: 10px;
+        }
+      }
+
+
+    }
+
+
+  }
+
+  .achievements {
+
+    .achievement-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.5em;
+      margin-bottom: .5em;
+
+      .item {
+        flex: 1;
+      }
+
+      .item-1, .item-3 {
+        flex: 3 0;
+      }
+
+      .item-2 {
+        flex: 1 1;
+      }
+    }
+
+    @media screen and (max-width: 599px) {
+
+      .achievement-row {
+        display: flex;
+        flex-direction: column;
+        .item, .item-1, .item-2, .item-3 {
+          flex: 1;
+        }
+
+      }
+
+
+    }
+  }
+
+
+}
+
+

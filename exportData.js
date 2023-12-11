@@ -5,7 +5,7 @@ const apiUrl = 'http://127.0.0.1:1337/api';
 
 async function fetchData(contentType) {
   try {
-    const url = `${apiUrl}/${contentType}`;
+    const url = `${apiUrl}/${contentType}?pagination[pageSize]=100`;
     console.log(`url: ${url}`)
     const response = await axios.get(url);
     return response.data;
@@ -16,7 +16,7 @@ async function fetchData(contentType) {
 }
 
 async function exportAllContent() {
-  const contentTypes = ['skills', 'home-page', 'highlights']; // Add your content types here
+  const contentTypes = ['skills', 'home-page', 'highlights', 'work-experiences', 'achievements']; // Add your content types here
 
   const allContent = {};
 

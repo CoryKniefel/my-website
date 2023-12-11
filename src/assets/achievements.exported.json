@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "organization": "Portland State University",
+        "year": "2009",
+        "title": "BS Business Administration",
+        "createdAt": "2023-12-09T23:22:30.305Z",
+        "updatedAt": "2023-12-09T23:22:37.810Z",
+        "publishedAt": "2023-12-09T23:22:37.809Z"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "organization": "NABCEP",
+        "year": "2011",
+        "title": "Photovoltaic Associate",
+        "createdAt": "2023-12-09T23:23:13.548Z",
+        "updatedAt": "2023-12-09T23:23:14.114Z",
+        "publishedAt": "2023-12-09T23:23:14.112Z"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "organization": "Portland Community College",
+        "year": "2014",
+        "title": "Full-Stack Development Certificate",
+        "createdAt": "2023-12-09T23:23:40.025Z",
+        "updatedAt": "2023-12-09T23:23:42.614Z",
+        "publishedAt": "2023-12-09T23:23:42.613Z"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "organization": "Project Management Institute",
+        "year": "2014",
+        "title": "PMP (inactive)",
+        "createdAt": "2023-12-09T23:24:17.326Z",
+        "updatedAt": "2023-12-09T23:24:17.326Z",
+        "publishedAt": "2023-12-09T23:25:24.884Z"
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "organization": "ScrumAlliance",
+        "year": "2015",
+        "title": "Certified Scrum Master (inactive)",
+        "createdAt": "2023-12-09T23:24:40.247Z",
+        "updatedAt": "2023-12-09T23:24:40.247Z",
+        "publishedAt": "2023-12-09T23:25:24.884Z"
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "organization": "Oracle",
+        "year": "2019",
+        "title": "Certified Associate, Java",
+        "createdAt": "2023-12-09T23:24:58.772Z",
+        "updatedAt": "2023-12-09T23:24:58.772Z",
+        "publishedAt": "2023-12-09T23:25:24.884Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "total": 6
+    }
+  }
+}

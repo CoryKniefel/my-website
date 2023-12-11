@@ -32,3 +32,19 @@ $my-theme: mat.define-light-theme((
 @include mat.button-theme($my-theme);
 
 // Include the theme mixins for other components you use here.
+
+
+.loader {
+  margin: auto;
+  border: 5px solid mat.get-theme-color($my-theme, primary, default);
+  border-radius: 50%;
+  border-top: 5px solid mat.get-theme-color($my-theme, accent, A100);
+  width: 40px;
+  height: 40px;
+  animation: spinner 1.5s linear infinite;
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

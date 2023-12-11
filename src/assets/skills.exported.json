@@ -21,14 +21,465 @@
         "updatedAt": "2023-12-05T00:18:58.526Z",
         "publishedAt": "2023-12-05T00:18:58.525Z"
       }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "skill": "Java EE",
+        "years": 2,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:06:48.977Z",
+        "updatedAt": "2023-12-10T23:06:48.977Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "skill": "IBM MQ",
+        "years": 2.5,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:07:17.938Z",
+        "updatedAt": "2023-12-10T23:07:17.938Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "skill": "Tomcat",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:07:39.830Z",
+        "updatedAt": "2023-12-10T23:25:29.860Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "skill": "JAX-RS with RESTEasy",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:08:04.049Z",
+        "updatedAt": "2023-12-10T23:08:20.587Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "skill": "Java Concurrency",
+        "years": 2.5,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:08:37.955Z",
+        "updatedAt": "2023-12-10T23:08:37.955Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "skill": "Spring/Spring Boot",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:08:59.570Z",
+        "updatedAt": "2023-12-10T23:08:59.570Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "skill": "API Development",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:09:32.154Z",
+        "updatedAt": "2023-12-10T23:09:36.257Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "skill": "TypeScript",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:10:11.132Z",
+        "updatedAt": "2023-12-10T23:10:11.132Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "skill": "Angular",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:10:29.150Z",
+        "updatedAt": "2023-12-10T23:10:29.150Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "skill": "HTML5",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:11:10.313Z",
+        "updatedAt": "2023-12-10T23:11:10.313Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "skill": "CSS3",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:11:53.989Z",
+        "updatedAt": "2023-12-10T23:11:53.989Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "skill": "W3C/WCAG",
+        "years": 2,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:12:14.142Z",
+        "updatedAt": "2023-12-10T23:12:14.142Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 15,
+      "attributes": {
+        "skill": "Jira/Confluence",
+        "years": 7,
+        "level": "Advanced",
+        "createdAt": "2023-12-10T23:12:42.773Z",
+        "updatedAt": "2023-12-10T23:12:42.773Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "skill": "Requirement Analysis",
+        "years": 10,
+        "level": "Advanced",
+        "createdAt": "2023-12-10T23:13:08.618Z",
+        "updatedAt": "2023-12-10T23:13:08.618Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "skill": "Git/Github",
+        "years": 5,
+        "level": "Advanced",
+        "createdAt": "2023-12-10T23:13:24.411Z",
+        "updatedAt": "2023-12-10T23:13:24.411Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "skill": "Jenkins",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:13:49.206Z",
+        "updatedAt": "2023-12-10T23:13:49.206Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "skill": "CI/ CD",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:14:13.575Z",
+        "updatedAt": "2023-12-10T23:14:13.575Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "skill": "Mockito",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:14:31.793Z",
+        "updatedAt": "2023-12-10T23:14:31.793Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "skill": "Debugging",
+        "years": 5,
+        "level": "Advanced",
+        "createdAt": "2023-12-10T23:15:05.811Z",
+        "updatedAt": "2023-12-10T23:15:05.811Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "skill": "JUnit/TestNG",
+        "years": 5,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:15:28.273Z",
+        "updatedAt": "2023-12-10T23:15:28.273Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "skill": "Data Marshaling JSON/XML",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:16:41.697Z",
+        "updatedAt": "2023-12-10T23:16:41.697Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "skill": "Test Driven Development",
+        "years": 3,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:16:56.405Z",
+        "updatedAt": "2023-12-10T23:16:56.405Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "skill": "RBAC",
+        "years": 1,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:17:11.395Z",
+        "updatedAt": "2023-12-10T23:17:11.395Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "skill": "OAuth 2.0",
+        "years": 2,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:17:22.677Z",
+        "updatedAt": "2023-12-10T23:17:22.677Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "skill": "Digital Certificates",
+        "years": 1,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:17:42.387Z",
+        "updatedAt": "2023-12-10T23:17:42.387Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "skill": "BouncyCastle",
+        "years": 1,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:18:06.839Z",
+        "updatedAt": "2023-12-10T23:18:06.839Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "skill": "Gradle/Maven",
+        "years": 5,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:18:26.168Z",
+        "updatedAt": "2023-12-10T23:18:26.168Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "skill": "JFrog Artifactor",
+        "years": 3,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:18:45.733Z",
+        "updatedAt": "2023-12-10T23:18:45.733Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "skill": "JMeter",
+        "years": 2,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:19:00.887Z",
+        "updatedAt": "2023-12-10T23:19:00.887Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "skill": "Postman",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:19:16.734Z",
+        "updatedAt": "2023-12-10T23:19:16.734Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "skill": "BlazeMeter",
+        "years": 1,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:19:30.816Z",
+        "updatedAt": "2023-12-10T23:19:30.816Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 34,
+      "attributes": {
+        "skill": "Selenium/Grid",
+        "years": 4,
+        "level": "Advanced",
+        "createdAt": "2023-12-10T23:19:50.858Z",
+        "updatedAt": "2023-12-10T23:19:50.858Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 35,
+      "attributes": {
+        "skill": "AWS",
+        "years": 2,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:20:08.529Z",
+        "updatedAt": "2023-12-10T23:20:08.529Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 36,
+      "attributes": {
+        "skill": "Data/Domain Modeling",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:20:41.033Z",
+        "updatedAt": "2023-12-10T23:20:41.033Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 37,
+      "attributes": {
+        "skill": "Docker",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:21:09.374Z",
+        "updatedAt": "2023-12-10T23:21:16.605Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 38,
+      "attributes": {
+        "skill": "Kubernetes",
+        "years": 1,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:21:33.384Z",
+        "updatedAt": "2023-12-10T23:21:33.384Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 39,
+      "attributes": {
+        "skill": "Test Framework Development",
+        "years": 4,
+        "level": "Advanced",
+        "createdAt": "2023-12-10T23:21:54.778Z",
+        "updatedAt": "2023-12-10T23:21:54.778Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 40,
+      "attributes": {
+        "skill": "Oracle DB",
+        "years": 1,
+        "level": "Basic",
+        "createdAt": "2023-12-10T23:22:13.300Z",
+        "updatedAt": "2023-12-10T23:22:13.300Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 41,
+      "attributes": {
+        "skill": "IBM DB2",
+        "years": 1,
+        "level": "Fundamental",
+        "createdAt": "2023-12-10T23:22:26.880Z",
+        "updatedAt": "2023-12-10T23:22:26.880Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 42,
+      "attributes": {
+        "skill": "PostgreSQL",
+        "years": 2.5,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:22:42.726Z",
+        "updatedAt": "2023-12-10T23:22:42.726Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
+    },
+    {
+      "id": 43,
+      "attributes": {
+        "skill": "MongoDB",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2023-12-10T23:22:57.738Z",
+        "updatedAt": "2023-12-10T23:22:57.738Z",
+        "publishedAt": "2023-12-10T23:23:15.502Z"
+      }
     }
   ],
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 25,
+      "pageSize": 100,
       "pageCount": 1,
-      "total": 2
+      "total": 43
     }
   }
 }

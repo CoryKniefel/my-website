@@ -2,7 +2,7 @@
 .wrapper {
   width: 100%;
   display: flex;
-  padding-top: 45px;
+  padding-top: 65px;
 
   .main-content {
     margin: 10px auto 10px;
@@ -29,7 +29,7 @@
 
     /* Expanded */
     @media screen and (min-width: 840px) {
-      max-width: 960px;
+      width: 960px;
     }
 
 
