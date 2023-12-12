@@ -4,8 +4,8 @@
   gap: 25px;
 
   mat-card {
+    flex: 1 0 300px;
     max-width: 300px;
-    //max-height: 200px;
     overflow: clip;
   }
 

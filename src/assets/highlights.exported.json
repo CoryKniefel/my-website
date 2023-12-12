@@ -23,7 +23,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Database skills with SQL and NoSQL"
+                    "text": "SQL and NoSQL Databases"
                   }
                 ]
               },
@@ -32,7 +32,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Front-end apps with Angular "
+                    "text": "Angular SPAs in TypeScript"
                   }
                 ]
               }
@@ -40,7 +40,7 @@
           }
         ],
         "createdAt": "2023-12-07T01:37:28.655Z",
-        "updatedAt": "2023-12-07T01:37:29.905Z",
+        "updatedAt": "2023-12-12T22:02:07.665Z",
         "publishedAt": "2023-12-07T01:37:29.903Z"
       }
     },
@@ -116,13 +116,13 @@
             "children": [
               {
                 "type": "text",
-                "text": "I enjoy working in the Scrum framework, but flexible enough to follow any process that creates value for customers. "
+                "text": "I enjoy working in the Scrum framework, but am flexible enough to follow any process that creates value for customers. "
               }
             ]
           }
         ],
         "createdAt": "2023-12-07T20:07:45.903Z",
-        "updatedAt": "2023-12-08T17:37:23.355Z",
+        "updatedAt": "2023-12-12T21:58:23.025Z",
         "publishedAt": "2023-12-07T20:07:47.499Z"
       }
     },
