@@ -1,20 +1,14 @@
 import {Component, OnInit} from '@angular/core';
-import {
-  Achievements,
-  Highlights,
-  Skill,
-  Skills,
-  WorkExperience,
-  WorkExperiences
-} from "../common/content/strapi-page.interface";
+import {Achievements, Skills, WorkExperiences} from "../common/content/strapi-page.interface";
 import {HttpClient} from "@angular/common/http";
 import {Title} from "@angular/platform-browser";
-import { Observable, catchError, forkJoin } from 'rxjs';
+import {catchError, forkJoin} from 'rxjs';
 import {NgTemplateOutlet} from "@angular/common";
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatChipsModule} from '@angular/material/chips';
-import {TooltipPosition, MatTooltipModule} from '@angular/material/tooltip';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatButtonModule} from "@angular/material/button";
 
 
 @Component({
@@ -22,7 +16,7 @@ import {TooltipPosition, MatTooltipModule} from '@angular/material/tooltip';
   selector: 'app-resume',
   templateUrl: './resume.component.html',
   imports: [
-    NgTemplateOutlet, MatIconModule, MatDividerModule, MatChipsModule, MatTooltipModule
+    NgTemplateOutlet, MatIconModule, MatDividerModule, MatChipsModule, MatTooltipModule, MatButtonModule
   ],
   styleUrls: ['./resume.component.scss']
 })
@@ -50,8 +44,6 @@ export class ResumeComponent implements OnInit{
       return [];
     }
 
-
-
   }
 
   sortSkills(skills: Skills): Skills {
@@ -65,18 +57,20 @@ export class ResumeComponent implements OnInit{
 
   formatDate(inputDate: string) {
     const date = new Date(inputDate);
-
-    // Get month and year
     const month = (date.getMonth() + 1).toString().padStart(2, '0');
     const year = date.getFullYear();
-
     return `${month}/${year}`;
   }
 
-
-
-  logItem(item: any) {
-    console.log("Logging item:", item)
+  downloadResume() {
+    this.http.get('/assets/cory.kniefel.pdf', { responseType: 'blob' })
+      .subscribe(response => {
+        const blob = new Blob([response], { type: 'application/pdf' });
+        const url = window.URL.createObjectURL(blob);
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.download = 'cory.kniefel.pdf';
+        anchor.click();
+      });
   }
-
 }

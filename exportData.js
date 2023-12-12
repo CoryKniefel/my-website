@@ -26,7 +26,6 @@ async function exportAllContent() {
     fs.writeFileSync(`src/assets/${contentType}.exported.json`, JSON.stringify(data, null, 2));
   }
 
-  // fs.writeFileSync('exported-content.json', JSON.stringify(allContent, null, 2));
 }
 
 exportAllContent();

@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {AppMenu} from "../menu/menu.component";
-import { MatToolbarModule } from '@angular/material/toolbar'
+import {MatToolbarModule} from '@angular/material/toolbar'
+
 @Component({
   standalone: true,
   selector: 'app-header',

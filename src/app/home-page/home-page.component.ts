@@ -5,13 +5,14 @@ import {StrapiPage} from "../common/content/strapi-page.interface";
 import {MatButtonModule} from '@angular/material/button';
 import {AtAGlanceComponent} from "../at-a-glance/at-a-glance.component";
 import {MatCardModule} from "@angular/material/card";
+import {RouterLink} from "@angular/router";
 
 @Component({
   standalone: true,
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.scss'],
-  imports: [MatButtonModule, AtAGlanceComponent, MatCardModule]
+  imports: [MatButtonModule, AtAGlanceComponent, MatCardModule, RouterLink]
 })
 export class HomePageComponent implements OnInit{
 
@@ -21,7 +22,6 @@ export class HomePageComponent implements OnInit{
 
   ngOnInit() {
     this.http.get('/assets/home-page.exported.json').subscribe((data: any) => {
-      console.log(data)
       this.content = data;
       this.setTitle();
     });
