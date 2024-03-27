@@ -9,6 +9,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from "@angular/material/button";
+import {ContentApiService} from "../common/content/ContentApiService";
 
 
 @Component({
@@ -26,23 +27,19 @@ export class ResumeComponent implements OnInit{
   skills!: Skills;
   achievements!: Achievements;
 
-  constructor(private http: HttpClient, private titleService: Title) {}
+  constructor(private contentApiService: ContentApiService, private http: HttpClient, private titleService: Title) {}
 
   ngOnInit() {
-    let experienceObs = this.http.get('/assets/work-experiences.exported.json').pipe( catchError(error => handleError(error)));
-    let skillsObs = this.http.get('/assets/skills.exported.json').pipe( catchError(error => handleError(error)));
-    let achievementsObs = this.http.get('/assets/achievements.exported.json').pipe( catchError(error => handleError(error)));
+    this.setTitle();
+    let experienceObs = this.contentApiService.getContent('work-experiences').pipe( catchError(error => this.handleError(error)));
+    let skillsObs = this.contentApiService.getContent('skills').pipe( catchError(error => this.handleError(error)));
+    let achievementsObs = this.contentApiService.getContent('achievements').pipe( catchError(error => this.handleError(error)));
 
     forkJoin([experienceObs, skillsObs, achievementsObs]).subscribe(([r1, r2, r3]) => {
       this.experiences = r1 as WorkExperiences;
       this.skills = this.sortSkills(r2 as Skills);
       this.achievements = r3 as Achievements;
     })
-
-    const handleError = (error: any) => {
-      console.error(error)
-      return [];
-    }
 
   }
 
@@ -63,7 +60,7 @@ export class ResumeComponent implements OnInit{
   }
 
   downloadResume() {
-    this.http.get('/assets/cory.kniefel.pdf', { responseType: 'blob' })
+    this.http.get('/assets/cory.kniefel.pdf', { responseType: 'blob' }).pipe( catchError(error => this.handleError(error)))
       .subscribe(response => {
         const blob = new Blob([response], { type: 'application/pdf' });
         const url = window.URL.createObjectURL(blob);
@@ -72,5 +69,14 @@ export class ResumeComponent implements OnInit{
         anchor.download = 'cory.kniefel.pdf';
         anchor.click();
       });
+  }
+
+  handleError(error: any): never[] {
+    console.error(error)
+    return [];
+  }
+
+  private setTitle() {
+    this.titleService.setTitle("Resume")
   }
 }

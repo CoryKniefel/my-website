@@ -54,7 +54,7 @@
             "children": [
               {
                 "type": "text",
-                "text": "As former QA Automation Engineer, quality stays top of mind. I reach my quality goals by using: "
+                "text": "As a former QA Automation Engineer, quality stays top of mind. I reach my quality goals by using: "
               }
             ]
           },
@@ -76,7 +76,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Unit Testing"
+                    "text": "Unit & IntegrationTesting"
                   }
                 ]
               },
@@ -85,16 +85,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Integration Testing"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "E2E Testing "
+                    "text": "E2E Testing"
                   }
                 ]
               }
@@ -102,7 +93,7 @@
           }
         ],
         "createdAt": "2023-12-07T17:26:49.353Z",
-        "updatedAt": "2023-12-08T17:23:42.960Z",
+        "updatedAt": "2024-03-27T16:13:18.223Z",
         "publishedAt": "2023-12-07T17:26:50.184Z"
       }
     },

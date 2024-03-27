@@ -3,6 +3,7 @@ import {MatCardModule} from '@angular/material/card'
 import {Highlights} from "../common/content/strapi-page.interface";
 import {HttpClient} from "@angular/common/http";
 import {Title} from "@angular/platform-browser";
+import {ContentApiService} from "../common/content/ContentApiService";
 
 @Component({
   selector: 'app-at-a-glance',
@@ -15,10 +16,10 @@ export class AtAGlanceComponent implements OnInit{
 
   content!: Highlights;
 
-  constructor(private http: HttpClient, private titleService: Title) {}
+  constructor(private contentApiService: ContentApiService, private titleService: Title) {}
 
   ngOnInit() {
-    this.http.get('/assets/highlights.exported.json').subscribe((data: any) => {
+    this.contentApiService.getContent('highlights').subscribe(data => {
       this.content = data;
     });
   }

@@ -6,6 +6,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {AtAGlanceComponent} from "../at-a-glance/at-a-glance.component";
 import {MatCardModule} from "@angular/material/card";
 import {RouterLink} from "@angular/router";
+import {ContentApiService} from "../common/content/ContentApiService";
 
 @Component({
   standalone: true,
@@ -18,10 +19,10 @@ export class HomePageComponent implements OnInit{
 
   content!: StrapiPage;
 
-  constructor(private http: HttpClient, private titleService: Title) {}
+  constructor(private contentApiService: ContentApiService, private titleService: Title) {}
 
   ngOnInit() {
-    this.http.get('/assets/home-page.exported.json').subscribe((data: any) => {
+    this.contentApiService.getContent('home-page').subscribe(data => {
       this.content = data;
       this.setTitle();
     });

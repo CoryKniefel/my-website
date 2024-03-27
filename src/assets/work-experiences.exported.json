@@ -116,16 +116,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Created and documented local development environment on Windows 11 using Windows Sub-System Linux (WSL2)"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "which gained the benefits of a stable OS for business tools on Windows (e.g. video conference) and Bash scripts in Linux which were used for development using Docker, Linux, and WSL"
+                    "text": "Created and documented local development environment on Windows 11 using Windows Sub-System Linux (WSL2) which gained the benefits of a stable OS for business tools on Windows (e.g. video conference) and Bash scripts in Linux which were used for development using Docker, Linux, and WSL"
                   }
                 ]
               }
@@ -133,7 +124,7 @@
           }
         ],
         "createdAt": "2023-12-09T22:25:48.367Z",
-        "updatedAt": "2023-12-09T22:50:43.711Z",
+        "updatedAt": "2024-03-27T18:10:17.506Z",
         "publishedAt": "2023-12-09T22:33:12.340Z",
         "jobTitle": "Full-Stack Software Engineer",
         "companyName": "Aravo"
