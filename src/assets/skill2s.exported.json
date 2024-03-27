@@ -1,0 +1,384 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Business Process Analysis",
+        "years": 5,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T20:53:40.960Z",
+        "updatedAt": "2024-03-27T20:53:40.960Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Stakeholder Presentations",
+        "years": 5,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T20:54:11.760Z",
+        "updatedAt": "2024-03-27T20:54:11.760Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Requirement Gathering",
+        "years": 12,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T20:54:49.077Z",
+        "updatedAt": "2024-03-27T20:54:49.077Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Writing Specifications",
+        "years": 10,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T20:55:07.878Z",
+        "updatedAt": "2024-03-27T20:55:07.878Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Backlog Grooming (Jira)",
+        "years": 10,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T20:55:43.781Z",
+        "updatedAt": "2024-03-27T20:55:43.781Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Documentation",
+        "years": 10,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T20:56:22.096Z",
+        "updatedAt": "2024-03-27T20:56:22.096Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Wireframes",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T20:56:49.627Z",
+        "updatedAt": "2024-03-27T20:56:49.627Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Workflow Diagrams (Visio)",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T20:57:12.337Z",
+        "updatedAt": "2024-03-27T20:57:12.337Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Project Management (PMP, Scrum Master)",
+        "years": 5,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T20:57:35.322Z",
+        "updatedAt": "2024-03-27T20:57:35.322Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Status Reports",
+        "years": 5,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:02:50.927Z",
+        "updatedAt": "2024-03-27T21:02:50.927Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Customer Satisfaction Surveys",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:03:23.950Z",
+        "updatedAt": "2024-03-27T21:03:23.950Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Product Competitive Analysis",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:03:41.086Z",
+        "updatedAt": "2024-03-27T21:03:41.086Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Research",
+        "years": 8,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:03:58.314Z",
+        "updatedAt": "2024-03-27T21:03:58.314Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "type": "bsa",
+        "skill": "Software Architecture (Client/Server, API)",
+        "years": 10,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:04:32.694Z",
+        "updatedAt": "2024-03-27T21:04:32.694Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 15,
+      "attributes": {
+        "type": "engineer",
+        "skill": "Object Oriented Programming (Java, TypeScript)",
+        "years": 6,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:05:16.297Z",
+        "updatedAt": "2024-03-27T21:05:16.297Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 16,
+      "attributes": {
+        "type": "engineer",
+        "skill": "API development (SpringBoot, RESTEasy)",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:06:16.896Z",
+        "updatedAt": "2024-03-27T21:06:16.896Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "type": "engineer",
+        "skill": "JavaEE (Tomcat, Jetty)",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:06:46.511Z",
+        "updatedAt": "2024-03-27T21:06:46.511Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "type": "engineer",
+        "skill": "Front End (HTML5, CSS3, Angular)",
+        "years": 3,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:07:28.788Z",
+        "updatedAt": "2024-03-27T21:07:28.788Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "type": "engineer",
+        "skill": "Test Drive Development",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:07:51.715Z",
+        "updatedAt": "2024-03-27T21:07:51.715Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "type": "engineer",
+        "skill": "Security (OAuth 2.0, RBAC, IAM, Digital Certificates)",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:08:23.221Z",
+        "updatedAt": "2024-03-27T21:08:23.221Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "type": "engineer",
+        "skill": "Build Systems",
+        "years": 5,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:08:54.131Z",
+        "updatedAt": "2024-03-27T21:08:54.131Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "type": "engineer",
+        "skill": "Containerization (Docker, K8s)",
+        "years": 3,
+        "level": "Basic",
+        "createdAt": "2024-03-27T21:09:19.626Z",
+        "updatedAt": "2024-03-27T21:09:19.626Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "type": "engineer",
+        "skill": "RDBMS (PostgreSQL, MySql, Oracle)",
+        "years": 4,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:09:42.761Z",
+        "updatedAt": "2024-03-27T21:09:42.761Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "type": "engineer",
+        "skill": "NoSQL (MongoDB)",
+        "years": 1,
+        "level": "Basic",
+        "createdAt": "2024-03-27T21:10:05.302Z",
+        "updatedAt": "2024-03-27T21:10:05.302Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "type": "qa",
+        "skill": "End-to-End Testing (Selenium WebDriver, Puppeteer)",
+        "years": 4,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:10:53.661Z",
+        "updatedAt": "2024-03-27T21:10:53.661Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "type": "qa",
+        "skill": "Unit Testing (JUnit/TestNG, Mockito)",
+        "years": 7,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:11:15.050Z",
+        "updatedAt": "2024-03-27T21:11:15.050Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "type": "qa",
+        "skill": "Integration Testing",
+        "years": 6,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:11:31.464Z",
+        "updatedAt": "2024-03-27T21:11:31.464Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "type": "qa",
+        "skill": "Test Framework Development",
+        "years": 6,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:11:46.948Z",
+        "updatedAt": "2024-03-27T21:11:46.948Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "type": "qa",
+        "skill": "Test Planning",
+        "years": 8,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:12:06.637Z",
+        "updatedAt": "2024-03-27T21:12:06.637Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "type": "qa",
+        "skill": "Load Testing (JMeter, BlazeMeter)",
+        "years": 2,
+        "level": "Intermediate",
+        "createdAt": "2024-03-27T21:12:29.007Z",
+        "updatedAt": "2024-03-27T21:12:29.007Z",
+        "publishedAt": "2024-03-27T21:58:13.364Z"
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "type": "qa",
+        "skill": "API Testing (PostMan, JMeter, REST Assured)",
+        "years": 5,
+        "level": "Advanced",
+        "createdAt": "2024-03-27T21:13:48.327Z",
+        "updatedAt": "2024-03-27T21:13:48.327Z",
+        "publishedAt": "2024-03-27T21:30:41.943Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "total": 31
+    }
+  }
+}

@@ -17,7 +17,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Worked on product platform where a portfolio of risk management applications are built"
+                    "text": "Built API for creating snapshots of webpages as a PDF using NodeJS, Typescript, Express, Puppeteer, and Docker that improved load-time by 50% resulting in improved customer experience"
                   }
                 ]
               },
@@ -26,16 +26,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Built API service that allows users to request any webpage as a PDF using NodeJS, Typescript, Express, Puppeteer, Docker and Splunk for monitoring"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "Rebuilt dashboard application that displays third party risk metrics, moved from AngularJS to Angular 14, TypeScript, Highcharts, CSS3, HTML5, W3C, and API Integrations"
+                    "text": "Rebuilt dashboard application that displays third party risk metrics in full-stack Java web application (Tomcat) using Angular 14, TypeScript, Highcharts, CSS3, HTML5, W3C, and API Integrations"
                   }
                 ]
               },
@@ -53,7 +44,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Added feature that allows users to customize column headers in custom third party risk reports, enabling localization and fine grained control, using Java 11, Oracle DB, and GWT"
+                    "text": "Added feature that allows users to customize fields in custom third party risk reports, enabling localization and fine grained control, in full-stack Java app (Tomcat, Angular) using Java 11, Oracle DB, and GWT"
                   }
                 ]
               },
@@ -98,7 +89,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Created templates for user stories which were adopted and drove consistency across development teams"
+                    "text": "Created templates for User Stories which were adopted and drove consistency across development teams"
                   }
                 ]
               },
@@ -110,21 +101,12 @@
                     "text": "Drove the adoption of the Conventional Commits specification so the commit history was more explicit and meaningful which enabled automated tools to more easily consume this information using Git and Confluence"
                   }
                 ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "Created and documented local development environment on Windows 11 using Windows Sub-System Linux (WSL2) which gained the benefits of a stable OS for business tools on Windows (e.g. video conference) and Bash scripts in Linux which were used for development using Docker, Linux, and WSL"
-                  }
-                ]
               }
             ]
           }
         ],
         "createdAt": "2023-12-09T22:25:48.367Z",
-        "updatedAt": "2024-03-27T18:10:17.506Z",
+        "updatedAt": "2024-03-27T23:09:59.289Z",
         "publishedAt": "2023-12-09T22:33:12.340Z",
         "jobTitle": "Full-Stack Software Engineer",
         "companyName": "Aravo"
@@ -232,16 +214,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Testing automation for modern web applications using Selenium WebDriver on various devices and browsers to ensure pages implemented responsive layout and matched expected design"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "Built test framework that compared JSON responses between versions of a Spring Boot app that migrated its database source from MongoDB to a RDBM"
+                    "text": "Performed testing automation for modern web applications using Selenium WebDriver on various devices and browsers to ensure pages implemented responsive layout and matched expected design"
                   }
                 ]
               },
@@ -276,7 +249,7 @@
           }
         ],
         "createdAt": "2023-12-11T21:41:29.708Z",
-        "updatedAt": "2023-12-11T21:52:07.025Z",
+        "updatedAt": "2024-03-27T23:07:08.815Z",
         "publishedAt": "2023-12-11T21:48:17.158Z",
         "jobTitle": "QA Automation Engineer",
         "companyName": "NWEA"
@@ -320,12 +293,21 @@
                     "text": "Maintained CI/CD for AEM instance during development phase of client project, including deployment to AWS supporting a high velocity development team"
                   }
                 ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Tested APIs using PostMan, JMeter, and REST Assured to ensure correct behavior and performance"
+                  }
+                ]
               }
             ]
           }
         ],
         "createdAt": "2023-12-11T21:44:29.504Z",
-        "updatedAt": "2023-12-11T21:52:29.708Z",
+        "updatedAt": "2024-03-27T21:21:24.715Z",
         "publishedAt": "2023-12-11T21:48:17.158Z",
         "jobTitle": "QA Automation Engineer",
         "companyName": "AKQA"
@@ -348,7 +330,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Specified product requirements for enterprise event planning system using Jira and Confluence"
+                    "text": "Collected requirements by interviewing stakeholders, SMEs, and Product Owner and distilled them into actionable User Stories and Requirements Documentation using Jira and Confluence"
                   }
                 ]
               },
@@ -357,7 +339,25 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Contributed to the testing of the API created for external integrations with event planning system using JMeter to verify functionality"
+                    "text": "Tested new features to ensure implementation matched functional and non-functional requirements "
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Trained users on system capabilities and workflows to reduce friction with product adoption"
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Tested API created for external integrations using JMeter to verify functionality"
                   }
                 ]
               }
@@ -365,7 +365,7 @@
           }
         ],
         "createdAt": "2023-12-11T21:45:52.221Z",
-        "updatedAt": "2023-12-11T21:45:52.221Z",
+        "updatedAt": "2024-03-27T21:27:25.916Z",
         "publishedAt": "2023-12-11T21:48:17.158Z",
         "jobTitle": "Business Systems Analyst",
         "companyName": "Nike"
@@ -388,7 +388,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "Collected requirements, created user stories, tested new features, and trained users for enterprise project management SaaS product"
+                    "text": "Collected requirements, created User Stories, tested new features, and trained users for enterprise project management SaaS product"
                   }
                 ]
               },
@@ -409,12 +409,21 @@
                     "text": "Managed mid-sized product implementation projects for key clients in healthcare space including virtual and onsite training sessions"
                   }
                 ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Created Work Breakdown Structures, Project Scope, and Project Charter documents "
+                  }
+                ]
               }
             ]
           }
         ],
         "createdAt": "2023-12-11T21:47:22.726Z",
-        "updatedAt": "2023-12-11T21:51:30.915Z",
+        "updatedAt": "2024-03-27T23:09:32.576Z",
         "publishedAt": "2023-12-11T21:48:17.158Z",
         "jobTitle": "Business Systems Analyst",
         "companyName": "Performance Logic"

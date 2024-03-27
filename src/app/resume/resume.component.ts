@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Achievements, Skills, WorkExperiences} from "../common/content/strapi-page.interface";
+import {Achievements, Skill, Skills, WorkExperiences} from "../common/content/strapi-page.interface";
 import {HttpClient} from "@angular/common/http";
 import {Title} from "@angular/platform-browser";
 import {catchError, forkJoin} from 'rxjs';
@@ -25,6 +25,9 @@ export class ResumeComponent implements OnInit{
 
   experiences!: WorkExperiences;
   skills!: Skills;
+  bsaSkills: Skills = {data: []};
+  engineerSkills: Skills = {data: []};
+  qaSkills: Skills = {data: []};
   achievements!: Achievements;
 
   constructor(private contentApiService: ContentApiService, private http: HttpClient, private titleService: Title) {}
@@ -32,14 +35,30 @@ export class ResumeComponent implements OnInit{
   ngOnInit() {
     this.setTitle();
     let experienceObs = this.contentApiService.getContent('work-experiences').pipe( catchError(error => this.handleError(error)));
-    let skillsObs = this.contentApiService.getContent('skills').pipe( catchError(error => this.handleError(error)));
+    let skillsObs = this.contentApiService.getContent('skill2s').pipe( catchError(error => this.handleError(error)));
     let achievementsObs = this.contentApiService.getContent('achievements').pipe( catchError(error => this.handleError(error)));
 
     forkJoin([experienceObs, skillsObs, achievementsObs]).subscribe(([r1, r2, r3]) => {
       this.experiences = r1 as WorkExperiences;
       this.skills = this.sortSkills(r2 as Skills);
+      this.groupSkills();
       this.achievements = r3 as Achievements;
     })
+
+  }
+
+  groupSkills(): void {
+
+    this.skills.data.forEach(skill => {
+      if(skill.attributes.type === 'bsa') {
+        this.bsaSkills.data.push(skill);
+      } else if (skill.attributes.type === 'engineer') {
+        this.engineerSkills.data.push(skill)
+      } else if (skill.attributes.type === 'qa') {
+        this.qaSkills.data.push(skill)
+      }
+
+    });
 
   }
 
@@ -60,13 +79,13 @@ export class ResumeComponent implements OnInit{
   }
 
   downloadResume() {
-    this.http.get('/assets/cory.kniefel.pdf', { responseType: 'blob' }).pipe( catchError(error => this.handleError(error)))
+    this.http.get('/assets/cory_kniefel.pdf', { responseType: 'blob' }).pipe( catchError(error => this.handleError(error)))
       .subscribe(response => {
         const blob = new Blob([response], { type: 'application/pdf' });
         const url = window.URL.createObjectURL(blob);
         const anchor = document.createElement('a');
         anchor.href = url;
-        anchor.download = 'cory.kniefel.pdf';
+        anchor.download = 'Cory_Kniefel.pdf';
         anchor.click();
       });
   }

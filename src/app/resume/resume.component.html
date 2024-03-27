@@ -1,7 +1,7 @@
 <div class="wrapper">
   <div class="download">
     <span>Download</span>
-    <button (click)="downloadResume()"  mat-icon-button  aria-label="Download resume as pdf">
+    <button (click)="downloadResume()" mat-icon-button aria-label="Download resume as pdf">
       <mat-icon>download</mat-icon>
     </button>
 
@@ -16,19 +16,58 @@
 
   </div>
 
+  <div>
+    <h1>Summary</h1>
+    <span>Customer focused, business minded, full-stack engineer with specialties in Java, Angular, APIs, and quality assurance.</span>
+  </div>
+
 
   <div class="skills">
     <h1>Skills</h1>
     @if (!skills) {
       <div class="loader"></div>
     } @else {
-      <mat-chip-set role="list">
-        @for (skill of skills.data;track skill) {
-          <mat-chip role="listitem"
-                    matTooltip="Years used: {{skill.attributes.years}}, Level: {{skill.attributes.level}}">{{ skill.attributes.skill }}
-          </mat-chip>
-        }
-      </mat-chip-set>
+      @if (bsaSkills) {
+        <div class="skill-type-section">
+          <span class="skills-section">Business System Analysis</span>
+          <mat-chip-set role="list">
+            @for (skill of bsaSkills.data; track skill) {
+              <mat-chip role="listitem"
+                        matTooltip="Years used: {{skill.attributes.years}}, Level: {{skill.attributes.level}}">{{ skill.attributes.skill }}
+              </mat-chip>
+            }
+          </mat-chip-set>
+        </div>
+
+      }
+
+      @if (engineerSkills) {
+        <div class="skill-type-section">
+          <span class="skills-section">Software Engineer</span>
+          <mat-chip-set role="list">
+            @for (skill of engineerSkills.data; track skill) {
+              <mat-chip role="listitem"
+                        matTooltip="Years used: {{skill.attributes.years}}, Level: {{skill.attributes.level}}">{{ skill.attributes.skill }}
+              </mat-chip>
+            }
+          </mat-chip-set>
+        </div>
+
+      }
+
+      @if (qaSkills) {
+        <div class="skill-type-section">
+          <span class="skills-section">Testing & QA Automation</span>
+          <mat-chip-set role="list">
+            @for (skill of qaSkills.data; track skill) {
+              <mat-chip role="listitem"
+                        matTooltip="Years used: {{skill.attributes.years}}, Level: {{skill.attributes.level}}">{{ skill.attributes.skill }}
+              </mat-chip>
+            }
+          </mat-chip-set>
+        </div>
+
+      }
     }
 
 
@@ -39,17 +78,17 @@
     @if (!experiences) {
       <div class="loader"></div>
     } @else {
-      @for (exp of experiences.data;track exp) {
+      @for (exp of experiences.data; track exp) {
         <div class="experience-item">
           <div class="top-line">
             <span>{{ exp.attributes.jobTitle }}</span>
-            <span>{{ exp.attributes.companyName }} in {{ exp.attributes.location }}</span>
+            <span>{{ exp.attributes.companyName }}{{exp.attributes.contractPosition ? ' (contract)' : ""}} in {{ exp.attributes.location }}</span>
             <span>{{ formatDate(exp.attributes.startDate) }} - {{ formatDate(exp.attributes.endDate) }}</span>
           </div>
 
           <ul>
-            @for (richText of exp.attributes.accomplishments;track richText) {
-              @for (item of richText.children;track item) {
+            @for (richText of exp.attributes.accomplishments; track richText) {
+              @for (item of richText.children; track item) {
                 <li>{{ item.children[0].text }}</li>
               }
             }
@@ -65,7 +104,7 @@
       <div class="loader"></div>
     } @else {
       <ul>
-        @for (achievement of achievements.data;track achievement) {
+        @for (achievement of achievements.data; track achievement) {
           <li>
             <div class="achievement-row">
               <span class="item item-1">{{ achievement.attributes.organization }}</span>

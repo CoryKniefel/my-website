@@ -19,7 +19,8 @@ export interface Skill {
   attributes: {
     skill: string;
     years: string;
-    level: string
+    level: string;
+    type: string;
   }
 }
 
